@@ -1,0 +1,27 @@
+
+.cuadro-morado{
+    background-color: rgba(5, 20, 26,0.7);
+    height: max-content;
+    margin: 40px;
+  }
+  
+  .foto-numa{
+   padding: 10px;
+  }
+  
+  .img-manu{
+    width: 100%;
+    
+  }
+ 
+
+
+  .nes-container.is-rounded{
+      margin: 40px;
+  }
+
+ .breadcrumb.aver{
+    margin: 0px;
+    border-image-outset: 0
+}
+  
