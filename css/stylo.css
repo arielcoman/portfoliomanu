@@ -5,23 +5,96 @@
     margin: 40px;
   }
   
-  .foto-numa{
-   padding: 10px;
-  }
-  
-  .img-manu{
-    width: 100%;
-    
-  }
- 
+
+
 
 
   .nes-container.is-rounded{
-      margin: 40px;
+     /* margin: 40px;*/
   }
 
  .breadcrumb.aver{
     margin: 0px;
     border-image-outset: 0
 }
+@media (min-width: 576px){
+  .modal-dialog{
+    max-width: 1000px;
+  }
+}
+
+.juego{
+ 
+  margin-bottom: 0.75rem;
+padding: 0;
+max-width: 49%;
+transition: all 0.2s ease;
+cursor: pointer
+}
+
+
+
+.juego:hover {
+ 
+  transform: scale(1.02)
+}
+
+.juegos{
+ 
   
+
+transition: all 0.2s ease;
+cursor: pointer
+}
+
+
+
+.juegos:hover {
+ 
+  transform: scale(1.02)
+}
+.card-body{
+  padding: 0.7rem;
+}
+
+.Designed{
+  margin: 1rem;
+}
+
+#torre{
+  display:none;
+}
+
+@media (max-width: 767px) {
+  .cuadro-morado{
+    margin-bottom: 1em; 
+    overflow: hidden;
+  }
+  #torre2{
+    display:none;
+  }
+  #torre{
+    display:flex;
+  }
+
+  .nes-container.is-rounded{
+    margin-bottom: 1em;
+ }
+ .col-xs-8{
+  width: 95%;
+}
+.foto-numa{
+  padding-left: 0;
+ }
+ .juego{
+   max-width: 100%;
+ }
+}
+.foto-numa{
+ padding-right: 0;
+}
+
+.img-manu{
+  width: 100%;
+  
+}

@@ -9,7 +9,10 @@ body {
   color: #4c4c4c;
   background-image: url(../images/back2.gif);
   background-size: cover;
-  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+      
 }
 
 
@@ -53,7 +56,7 @@ h3, .h3 {
 }
 
 h4, .h4 {
-  font-size: 22px;
+  font-size: 1.3em;
 }
 
 h5, .h5 {
@@ -66,7 +69,7 @@ h6, .h6 {
 
 /* Button style */
 .btn {
-  font-size: 22px;
+  font-size: 1em;
   text-transform: capitalize;
   padding: 16px 44px;
   border-radius: 5px;
@@ -416,7 +419,7 @@ textarea.form-control {
 @media (max-width: 991px) {
   .navigation {
     padding: 20px;
-    background: #383838;
+    
   }
 }
 
@@ -434,13 +437,13 @@ textarea.form-control {
 }
 
 .hero-area {
-  padding: 10px 0 50px;
+  margin-bottom: 5em;
   position: relative;
   
 }
 @media (max-width: 767px) {
   .hero-area {
-    padding: 250px 0 150px;
+    
     overflow: hidden;
   }
 }
