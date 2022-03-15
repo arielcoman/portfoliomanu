@@ -67,12 +67,7 @@ cursor: pointer
 
 @media (max-width: 767px) {
     
-    body {
-    
-    background-image: url(../images/5.svg);
-    background-size: cover;
-    
-  }
+
   .cuadro-morado{
     margin-bottom: 1em; 
     overflow: hidden;
