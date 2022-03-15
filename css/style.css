@@ -842,5 +842,12 @@ blockquote {
   font-weight: bold;
 }
 
+@media (max-width: 767px) {
 
+  body {
+    
+    background-image: url(../images/back5.gif);
+    background-size: cover;
+    
+  }}
 
