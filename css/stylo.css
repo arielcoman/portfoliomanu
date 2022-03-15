@@ -66,10 +66,12 @@ cursor: pointer
 }
 
 @media (max-width: 767px) {
-    
 
+ 
+  
   .cuadro-morado{
-    margin-bottom: 1em; 
+    margin: 0 0 0 1em;
+    
     overflow: hidden;
   }
   #torre2{
@@ -91,6 +93,8 @@ cursor: pointer
  .juego{
    max-width: 100%;
  }
+
+
 }
 .foto-numa{
  padding-right: 0;
