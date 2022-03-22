@@ -93,7 +93,9 @@ cursor: pointer
  .juego{
    max-width: 100%;
  }
-
+ #logo{
+  width: 50%;
+}
 
 }
 .foto-numa{
@@ -104,3 +106,4 @@ cursor: pointer
   width: 100%;
   
 }
+
