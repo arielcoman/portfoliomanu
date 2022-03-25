@@ -72,7 +72,6 @@ cursor: pointer
   padding: 0;
 
  }
-  
   .cuadro-morado{
     margin: 0 0 0 1em;
     
@@ -111,3 +110,11 @@ cursor: pointer
   
 }
 
+.redes{
+  margin: 1em;
+}
+
+
+.redes a{
+  margin-left: 1em;
+}
